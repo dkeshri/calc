@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Deploy Angular application on gh-pages
+
+**Install the Angular CLI GitHub Pages package** if you haven’t already:
+
+```bash
+npm install -g angular-cli-ghpages
+```
+
+Step 1: Build Project by below command
+
+```
+ng build --configuration production --base-href "https://dkeshri.github.io/calc/"
+```
+Step 2 : **Deploy your application** using the following command:
+
+```bash
+ngh --dir=dist/calculator/browser
+```
