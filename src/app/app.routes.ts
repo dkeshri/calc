@@ -1,10 +1,6 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { AreaComponent } from './pages/area/area.component';
-
 export const routes: Routes = [
-    { path:'', component:HomeComponent},
-    { path:'home', component:HomeComponent},
-    { path:'area', component:AreaComponent},
+    { path:'home', loadComponent: ()=> import('./pages/home/home.component').then( c => c.HomeComponent)},
+    { path:'area', loadComponent: ()=> import('./pages/area/area.component').then( c => c.AreaComponent)},
     { path:'**', redirectTo:'home'}
 ];
