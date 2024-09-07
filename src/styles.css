@@ -3,16 +3,15 @@
     --secondaryColor: #4a4e58;
     --textSecondary: grey;
     --scrollColor: #b3b6bb;
-    /*ced1d8*/
     --scrollBGColor: rgb(236, 229, 229);
     --scrollBorderColor: #6e6f70;
     --bannerTextSecondaryColor: #595f6d;
     --skillBGColor: white;
     --skillColor: var(--primaryColor);
     --skillProgressBarBorderColor: #1d8997;
-    --navBarHeight: 4rem;
+    --navBarHeight: 3rem;
     --LogoBorderColor: #3f3f72;
-    --footerHeight: 3rem;
+    --footerHeight: 2.6rem;
 }
 
 html {
