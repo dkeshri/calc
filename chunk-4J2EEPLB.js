@@ -1,0 +1,1 @@
+import{$a as n,ab as o,ca as a,pb as r,tb as p}from"./chunk-MBXRHBUO.js";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-area"]],standalone:!0,features:[p],decls:2,vars:0,template:function(e,m){e&1&&(n(0,"p"),r(1,"area works!"),o())}})};export{s as AreaComponent};
