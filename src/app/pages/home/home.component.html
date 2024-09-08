@@ -1,4 +1,23 @@
 <div class="container">
-    <h2>Calculate Price</h2>
-    <button mat-raised-button>Basic</button>
+    <p-panel header="Calculate Price">
+        <div class="row">
+            <div class="p-field">
+                <label for="barcode">Length</label>
+                <input type="text" class="p-inputtext-sm" pInputText />
+            </div>
+            <div class="p-field">
+                <label for="barcode">Width</label>
+                <input type="text" class="p-inputtext-sm" pInputText />
+            </div>
+            <div class="p-field">
+                <label for="barcode">Depth</label>
+                <input type="text" class="p-inputtext-sm" pInputText />
+            </div>
+        </div>
+
+        <div class="action-container">
+            <button class="btn" mat-raised-button>Calculate</button>
+        </div>
+
+    </p-panel>
 </div>
