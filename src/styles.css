@@ -16,10 +16,8 @@
 
 html {
     scroll-behavior: smooth;
-    /* font-size: 14px; */
 }
 
-/* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
     width: 10px;
 }
@@ -38,7 +36,6 @@ a {
     text-decoration: none;
 }
 
-/* Global page layout*/
 .box {
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
